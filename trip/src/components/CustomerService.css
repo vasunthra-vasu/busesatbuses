@@ -1,0 +1,94 @@
+
+
+.customer-service {
+    max-width: 800px; /* Limit the width for better readability */
+    margin: auto; /* Center the content */
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for elevation */
+    background-color: rgba(247, 244, 244, 0.83); /* White background for the content area */
+    border-radius: 8px; /* Rounded corners */
+    color:#040303d3;
+    background-color:linear-gradient(135deg, #ff5f6d 0%, #ffc371 50%, #ff9a8b 100%);
+    ;
+}
+
+header {
+    background-color: #007bff; /* Primary color */
+    color: white;
+    padding: 1.5rem;
+    text-align: center;
+    border-radius: 8px 8px 0 0; /* Rounded top corners */
+}
+
+h1 {
+    margin: 0; /* Remove default margin */
+}
+
+h2 {
+    color: #007bff; /* Primary color for headings */
+    margin-top: 1.5rem; /* Spacing above headings */
+    border-bottom: 2px solid #e2e2e2; /* Underline for headings */
+    color:#e2e2e2;
+    padding-bottom: 0.5rem; /* Padding below heading */
+}
+
+.faq-item {
+    background: #f8f7f7ad; /* Light gray background for FAQ items */
+    padding: 15px; /* Increased padding for better spacing */
+    margin: 10px 0; /* Spacing between FAQ items */
+    border-radius: 5px; /* Rounded corners for FAQ items */
+    transition: background-color 0.3s; /* Smooth transition effect */
+    color:#0c0a0a;
+}
+
+.faq-item:hover {
+    background: #f7f6f6; /* Change background on hover */
+    color:#060404;
+}
+
+.faq-header {
+    display: flex; /* Flexbox for alignment */
+    justify-content: space-between; /* Space between question and icon */
+    align-items: center; /* Center align items vertically */
+    cursor: pointer; /* Pointer cursor on hover */
+    color:#0c0a0a;
+}
+
+.icon {
+    font-size: 18px; /* Icon size */
+    margin-left: 10px; /* Space between question and icon */
+}
+
+.contact ul, .support ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+    color:#080707;
+}
+
+.contact ul li, .support ul li {
+    padding: 10px 0; /* Spacing between list items */
+    border-bottom: 1px solid #e2e2e2; /* Divider line */
+    color:#060505;
+}
+
+.contact ul li:last-child, .support ul li:last-child {
+    border-bottom: none; /* Remove last divider line */
+    color:#070707;
+}
+
+footer {
+    background-color: #007bff; /* Primary color */
+    color: rgba(14, 8, 8, 0.735);
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    border-radius: 0 0 8px 8px; /* Rounded bottom corners */
+    margin-top: 20px; /* Space above footer */
+}
+
+footer p {
+    margin: 0; /* Remove default margin */
+    color:#070707;
+}

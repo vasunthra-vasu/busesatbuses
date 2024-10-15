@@ -1,0 +1,162 @@
+/* Navigation Bar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #343a40;
+  padding: 20px;
+  color: white;
+}
+
+.navbar .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  color: #ffda44;
+}
+
+/* Home Container */
+.home-container {
+  padding: 50px;
+  background: linear-gradient(135deg, #5cb5f0 0%, #96c2ec 50%, #d8f3fa 100%); 
+  min-height: 100vh;
+  background-size: cover;
+  min-height: 100vh; text-align: center;
+ 
+  background-color: #f8f9fa65;
+}
+
+.home-header h1 {
+  font-size: 36px;
+  color: #030707d1;
+}
+
+.home-header p {
+  font-size: 18px;
+  color: #555;
+  margin: 15px 0;
+}
+.home-container p{
+  color:#fffcfc;
+
+}
+
+/* Features Section */
+.home-features {
+  display: flex;
+  justify-content: space-around;
+  margin: 40px 0;
+}
+
+/* Feature Card */
+.feature-card {
+  
+background-image: url('C:\Users\Vasunthra\OneDrive\Desktop\full stack\trip\public\images\frame.jpg');
+  background-size: cover; /* Ensures the image fully covers the card */
+  background-position: center; /* Centers the background image */
+  background-repeat: no-repeat; /* Prevents repeating the background image */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  height:max-content;
+  transition: transform 0.3s;
+  text-align: center;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Updated Image Styling */
+.feature-card img {
+  width: 80%;
+  height: 200px; /* Adjust height as per your design */
+  object-fit: cover; /* Ensures image covers the card area */
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+.feature-card h3 {
+  color: #00080ce9;
+}
+
+.feature-card p {
+  color: #080808;
+}
+/* Testimonials Section */
+.home-testimonials {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #eef8f963;
+}
+
+.home-testimonials h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.testimonial {
+  margin-bottom: 15px;
+  font-size: 16px;
+  text-align: center;
+  color: #32c7cc;
+}
+
+/* Image Carousel Section */
+.home-carousel {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.carousel {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.carousel img {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Book Now Button */
+.book-now-button {
+  padding: 15px 30px;
+  background-color: #25adb7;
+  color: rgb(239, 245, 245);
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  max-width: fit-content;
+}
+
+.book-now-button:hover {
+  background-color: #129098;
+}
+
+/* Footer */
+.footer {
+  color: #060404;
+  text-align: center;
+  padding: 1rem 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

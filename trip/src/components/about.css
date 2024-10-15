@@ -1,0 +1,97 @@
+.about-container {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #f6f2f2; /* Changed text color */
+    background: url('C:/Users/Vasunthra/OneDrive/Desktop/full stack/trip/public/road.jpg') no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+  }
+  
+  .header {
+    background: rgba(117, 116, 116, 0.933); /* Semi-transparent background */
+    color: #fff;
+    padding: 1rem 0;
+    text-align:center;
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: #ffcc00; /* Changed title color */
+  }
+  
+  .header p {
+    font-size: 1.2rem;
+    color: #ffcc00; /* Changed paragraph color */
+  }
+  body {
+    color: #fcf9f9; 
+  }
+  
+  .header h1 {
+    color: #f4f013;
+  }
+  .content h2 {
+    color: #fbfb06; /* Change to your preferred color for h2 elements */
+    margin-top: 1rem;
+    font-size: 1.8rem;
+  }
+  .content p {
+    color: #fbf9f9; /* Adjust to your preferred color for paragraph text */
+  }
+  .content ul li {
+    color: #f7f6f6; /* Change list item color if needed */
+  }
+  .h2 {
+    color: #ffcc00; /* Changed title color */
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+  .content {
+    width: 80%;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 8px;
+    color: #f2f7f8; /* Changed text color */
+  }
+  .h2.content{
+    color:#f2f7f8;
+
+  }
+  
+  h2 {
+    color: #ffcc00; /* Changed title color */
+    margin-top: 1rem;
+    font-size: 1.8rem;
+  }
+  
+  ul {
+    list-style-type: disc;
+    margin: 1rem 0;
+    padding-left: 20px;
+    color:#f2f7f8;
+  }
+  
+  .footer {
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  a {
+    color: #ffcc00; /* Changed link color */
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+
+
+  

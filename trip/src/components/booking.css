@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #5cb5f0 0%, #96c2ec 50%, #d8f3fa 100%); 
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+ 
+
+/* h1 Heading */
+.main-heading {
+  text-align: center;
+  color: #333;
+  font-size: 2.5rem;
+  margin-top: 100px; /* Pushing the h1 down by 100px */
+  margin-bottom: 40px; /* Adding space below h1 */
+  font-weight: 700;
+}
+
+/* Booking Container */
+.booking-form{
+  max-width: 500px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto; /* Centering the form container horizontally */
+  padding: 40px;
+  border: 2px solid rgba(204, 204, 204, 0.5); 
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.387); 
+  color:black;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+}
+
+/* Route Selection */
+.route-selection {
+  border: 1px solid rgba(204, 204, 204, 0.5);
+  border-radius: 10px;
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Group */
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+/* Select Input */
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid rgba(204, 204, 204, 0.8);
+  border-radius: 5px;
+}
+
+/* Button */
+button {
+  padding: 10px 15px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 1.1rem;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #218838;
+  transform: translateY(-2px);
+}
